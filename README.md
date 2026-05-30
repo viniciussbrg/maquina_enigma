@@ -110,21 +110,35 @@ Para a criptografia, as letras digitadas seguem o seguinte caminho:
 ## 📖 Cifras
 Abaixo estão as cifras usadas:
 
-|Instrução| opcode/funct | Descrição| Formato|
-| :---: | :---: | :---: | :---: |
-|Soma |000/000| rd = rs + rt| R|
-|Subtração| 000/001| rd = rs - rt| R|
-|Multiplicação| 000/010| rd = rs * rt| R|
-|Divisão| 000/011| rd = rs / rt| R|
-|Negação| 000/100| rd = ~rs| R|
-|Menor que| 000/101| se rs < rt, rd = 1| R|
-|Deslocamento à esquerda| 000/110| rd = rs << N| R|
-|Deslocamento à direita| 000/111| rd = rs >> N| R|
-|Carregar dados da memoria| 001/xxx| rt = Memoria[rs + N]| I|
-|Operações Salvar dados da memoria| 010/xxx |Memoria[rs + N] = rt| I|
-|Desvio condicional| 011/xxx| se rs == rt, PC = ENDR| I|
-|Soma imediata| 100/xxx| rt = rs + N| I|
-|Desvio incondicional| 111/xxx| PC = ENDR| J|
+|Posição|Letra|| Cifra A |	A Inversa |
+| :---: | :---: |:---:| :---: | :---: |
+|00001|	A	||	G	|N|
+|00010|	B		||D	|Y|
+|00011|	C		||Y|	Z|
+|00100|	D||		U|	B|
+|00101|	E	||	N	|I|
+|00110|	F	||	Q|	Q|
+|00111|	G	||	M|	A|
+|01000|	H	||	O	|R|
+|01001|	I	||	E|	T|
+|01010|	J	|	|R|	U|
+|01011|	K		||P|	M|
+|01100|	L|		|V|	W|
+|01101|	M|		|K|	G|
+|01110|	N|		|A|	E|
+|01111|	O	|	|S|	H|
+|10000|	P		||W|	K|
+|10001|	Q|		|F|	F|
+|10010|	R	|	|H|	J|
+|10011|	S	|	|Z|	O|
+|10100|	T	|	|I|	X|
+|10101|	U	|	|J|	D|
+|10110|	V	|	|X	|L|
+|10111|	W	|	|L	|P|
+|11000|	X|		|T|	V|
+|11001|	Y	|	|B|	C|
+|11010|	Z	|	|C|	S|
+
 
 ## 🚀 Como usar
 1. Faça o download do [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution)
