@@ -143,7 +143,7 @@ Entrando a letra A em um rotor com a cifra A a saida será G, de modo que se ent
 ## 🚀 Como usar
 1. Faça o download do [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution)
 2. Faça o clone ou download desse repositorio
-3. Siga as [Instruções de Usos](https://github.com/Tayson-M/Processador-MIPS-18-bits/tree/main/Circuito/#instru%C3%A7%C3%B5es-de-usos)
+3. Siga as [Instruções de Usos](https://github.com/viniciussbrg/maquina_enigma/tree/main/Enigma#instru%C3%A7%C3%B5es-de-usos)
 
 ## 📺 Link para video no Youtube
 >[![Nome do Vídeo](https://img.youtube.com/vi/_R43zn0hE4I/0.jpg)](https://www.youtube.com/watch?v=_R43zn0hE4I)
