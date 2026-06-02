@@ -24,7 +24,7 @@ O enigma possui as seguintes etapas principais:
 
 ´´´
 
->**Distribuidor:** Recebe a letra digitada pelo teclado e verificar se o que foi digitado é uma letra, pois o nosso projeto só criptografa/decriptografa letras, encaminhando o que foi digitado para seu devido destino
+>**Distribuidor:** Recebe a letra digitada pelo teclado e verifica se o que foi digitado é uma letra, pois o nosso projeto só criptografa/decriptografa letras, encaminhando o que foi digitado para seu devido destino
 >
 ><img width="321" height="143" alt="Distribuidor" src="https://github.com/user-attachments/assets/1c213578-1256-4b6c-8c13-9fa4a6704138" />
 
@@ -107,34 +107,34 @@ O enigma possui as seguintes etapas principais:
 ## 📖 Cifras
 Abaixo estão as cifras usadas:
 
-|Posição|Letra| | Cifra A |	A Inversa | | Cifra B | B Inversa |
-| :---: | :---: |:---:| :---: | :---: | :---: | :---: | :---: |
-| 00001 |	A	|  | G | N |  | i | N |
-| 00010 | B	|  | D | Y |  | U | P |
-| 00011 |	C	|  | Y | Z |  | R | H |
-| 00100 |	D |  | U | B |  | X | J |
-| 00101 |	E	|  | N | I |  | P | L |
-| 00110 |	F	|  | Q | Q |  | S | T |
-| 00111 |	G	|  | M | A |  | K | S |
-| 01000 |	H	|  | O | R |  | C | Q |
-| 01001 |	I	|  | E | T |  | Z | A |
-| 01010 |	J	|	 | R | U |  | D | K |
-| 01011 |	K	|  | P | M |  | J | G |
-| 01100 |	L |	 | V | W |  | E | U |
-| 01101 |	M |	 | K | G |  | N | O |
-| 01110 |	N |	 | A | E |  | A | M |
-| 01111 |	O	|	 | S | H |  | M | W |
-| 10000 |	P	|  | W | K |  | B | E |
-| 10001 |	Q |	 | F | F |  | H | V |
-| 10010 |	R	|	 | H | J |  | T | C |
-| 10011 |	S	|	 | Z | O |  | G | F |
-| 10100 |	T	|	 | I | X |  | F | R |
-| 10101 |	U	|	 | J | D |  | L | B |
-| 10110 |	V	|	 | X | L |  | Q | Z |
-| 10111 |	W	|	 | L | P |  | O | Y |
-| 11000 |	X |	 | T | V |  | Y | D |
-| 11001 |	Y	|	 | B | C |  | W | X |
-| 11010 |	Z	|	 | C | S |  | V | I |
+|Posição|Letra| | Cifra A |	A Inversa | | Cifra B | B Inversa |  | Plugboard | Refletor |
+| :---: | :---: |:---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 00001 |	A	|  | G | N |  | i | N |  | F | T |
+| 00010 | B	|  | D | Y |  | U | P |  | T | H |
+| 00011 |	C	|  | Y | Z |  | R | H |  | M | I |
+| 00100 |	D |  | U | B |  | X | J |  | G | G |
+| 00101 |	E	|  | N | I |  | P | L |  | Z | F |
+| 00110 |	F	|  | Q | Q |  | S | T |  | A | E |
+| 00111 |	G	|  | M | A |  | K | S |  | D | D |
+| 01000 |	H	|  | O | R |  | C | Q |  | P | B |
+| 01001 |	I	|  | E | T |  | Z | A |  | O | C |
+| 01010 |	J	|	 | R | U |  | D | K |  | K | W |
+| 01011 |	K	|  | P | M |  | J | G |  | J | S |
+| 01100 |	L |	 | V | W |  | E | U |  | W | Q |
+| 01101 |	M |	 | K | G |  | N | O |  | C | X |
+| 01110 |	N |	 | A | E |  | A | M |  | S | V |
+| 01111 |	O	|	 | S | H |  | M | W |  | I | Z |
+| 10000 |	P	|  | W | K |  | B | E |  | H | Y |
+| 10001 |	Q |	 | F | F |  | H | V |  | X | L |
+| 10010 |	R	|	 | H | J |  | T | C |  | Y | U |
+| 10011 |	S	|	 | Z | O |  | G | F |  | N | K |
+| 10100 |	T	|	 | I | X |  | F | R |  | B | A |
+| 10101 |	U	|	 | J | D |  | L | B |  | V | R |
+| 10110 |	V	|	 | X | L |  | Q | Z |  | U | N |
+| 10111 |	W	|	 | L | P |  | O | Y |  | L | J |
+| 11000 |	X |	 | T | V |  | Y | D |  | Q | M |
+| 11001 |	Y	|	 | B | C |  | W | X |  | R | P |
+| 11010 |	Z	|	 | C | S |  | V | I |  | E | O |
 
 **Para ler esses cifras se deve ter como base o seguinte:**
 Entrando a letra A em um rotor com a cifra A a saida será G, de modo que se entrar a letra G em um rotor inverso com a cifra A inversa a saida será A
