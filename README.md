@@ -1,11 +1,14 @@
 # Maquina_Enigma
-Simulação digital de uma máquina enigma
+<img width="300" height="234" alt="enigma-300x234" src="https://github.com/user-attachments/assets/ac9ac5d2-1233-403e-a524-6e0a65171210" />
+
+
+máquina enigma usada pelos nazistas
 
 ## 💻 Sobre o projeto
 Esse projeto consiste em desenvolver uma maquina enigma por meios de simulação digital
 
 
-## 🛠 Visão Geral
+## 🎯 Visão Geral
 O enigma possui as seguintes etapas principais: 
 **Entrada de dados -> Distribuidor -> Criptografia/Decriptografia -> Saida de dados**
 
@@ -45,7 +48,7 @@ O enigma possui as seguintes etapas principais:
 
 ´´´
 
-## Analisando cada componente...
+## 🛠 Analisando cada componente...
 >**Verificador:** Ele é responsável por verificar se o que foi digitado é uma letra ou não, para isso ele verifica se o que foi digitado está dentro do intervalo dos valores hexadecimais das letras pela tabela ASCII
 >
 ><img width="316" height="134" alt="Verificador" src="https://github.com/user-attachments/assets/c40243f1-9819-4011-a6fd-d74930e8fd2b" />
@@ -101,43 +104,40 @@ O enigma possui as seguintes etapas principais:
 ´´´
 
 
-## 🧩 Passo a Passo da Criptografia
-Para a criptografia, as letras digitadas seguem o seguinte caminho:
-
-**PlugBoard -> Rotor 2 -> Rotor 1 -> Refletor -> Rotor 1 -> Rotor 2 -> PlugBoard**
-
-
 ## 📖 Cifras
 Abaixo estão as cifras usadas:
 
-|Posição|Letra|| Cifra A |	A Inversa |
-| :---: | :---: |:---:| :---: | :---: |
-|00001|	A	||	G	|N|
-|00010|	B		||D	|Y|
-|00011|	C		||Y|	Z|
-|00100|	D||		U|	B|
-|00101|	E	||	N	|I|
-|00110|	F	||	Q|	Q|
-|00111|	G	||	M|	A|
-|01000|	H	||	O	|R|
-|01001|	I	||	E|	T|
-|01010|	J	|	|R|	U|
-|01011|	K		||P|	M|
-|01100|	L|		|V|	W|
-|01101|	M|		|K|	G|
-|01110|	N|		|A|	E|
-|01111|	O	|	|S|	H|
-|10000|	P		||W|	K|
-|10001|	Q|		|F|	F|
-|10010|	R	|	|H|	J|
-|10011|	S	|	|Z|	O|
-|10100|	T	|	|I|	X|
-|10101|	U	|	|J|	D|
-|10110|	V	|	|X	|L|
-|10111|	W	|	|L	|P|
-|11000|	X|		|T|	V|
-|11001|	Y	|	|B|	C|
-|11010|	Z	|	|C|	S|
+|Posição|Letra| | Cifra A |	A Inversa | | Cifra B | B Inversa |
+| :---: | :---: |:---:| :---: | :---: | :---: | :---: | :---: |
+| 00001 |	A	|  | G | N |  | i | N |
+| 00010 | B	|  | D | Y |  | U | P |
+| 00011 |	C	|  | Y | Z |  | R | H |
+| 00100 |	D |  | U | B |  | X | J |
+| 00101 |	E	|  | N | I |  | P | L |
+| 00110 |	F	|  | Q | Q |  | S | T |
+| 00111 |	G	|  | M | A |  | K | S |
+| 01000 |	H	|  | O | R |  | C | Q |
+| 01001 |	I	|  | E | T |  | Z | A |
+| 01010 |	J	|	 | R | U |  | D | K |
+| 01011 |	K	|  | P | M |  | J | G |
+| 01100 |	L |	 | V | W |  | E | U |
+| 01101 |	M |	 | K | G |  | N | O |
+| 01110 |	N |	 | A | E |  | A | M |
+| 01111 |	O	|	 | S | H |  | M | W |
+| 10000 |	P	|  | W | K |  | B | E |
+| 10001 |	Q |	 | F | F |  | H | V |
+| 10010 |	R	|	 | H | J |  | T | C |
+| 10011 |	S	|	 | Z | O |  | G | F |
+| 10100 |	T	|	 | I | X |  | F | R |
+| 10101 |	U	|	 | J | D |  | L | B |
+| 10110 |	V	|	 | X | L |  | Q | Z |
+| 10111 |	W	|	 | L | P |  | O | Y |
+| 11000 |	X |	 | T | V |  | Y | D |
+| 11001 |	Y	|	 | B | C |  | W | X |
+| 11010 |	Z	|	 | C | S |  | V | I |
+
+**Para ler esses cifras se deve ter como base o seguinte:**
+Entrando a letra A em um rotor com a cifra A a saida será G, de modo que se entrar a letra G em um rotor inverso com a cifra A inversa a saida será A
 
 
 ## 🚀 Como usar
@@ -149,8 +149,9 @@ Abaixo estão as cifras usadas:
 >[![Nome do Vídeo](https://img.youtube.com/vi/_R43zn0hE4I/0.jpg)](https://www.youtube.com/watch?v=_R43zn0hE4I)
 
 ## 🌱 Melhorias a se fazer
-* 
-* 
+* Adicionar mais rotores 
+* Ajustar a decriptografia para funcionar com mais rotores 
+* Ajustar o sistema para funcionar com cifras de tipos diferentes em cada rotor
 
 ## 👨‍💻 Integrantes
 [![GitHub](https://img.shields.io/badge/GitHub-TaysonMoises-24292e?style=flat&logo=github)](https://github.com/Tayson-M)
