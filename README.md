@@ -14,7 +14,6 @@ O enigma possui as seguintes etapas principais:
 
 <img width="896" height="692" alt="main" src="https://github.com/user-attachments/assets/6b00f6a7-c782-49cd-a707-bbe1219b9b86" />
 
-´´´
 
 
 ## 🔍 Explicação dos blocos
@@ -46,7 +45,7 @@ O enigma possui as seguintes etapas principais:
 >
 ><img width="303" height="202" alt="TTY" src="https://github.com/user-attachments/assets/c566260e-2729-4867-b548-bc494c1ab53c" />
 
-´´´
+
 
 ## 🛠 Analisando cada componente...
 >**Verificador:** Ele é responsável por verificar se o que foi digitado é uma letra ou não, para isso ele verifica se o que foi digitado está dentro do intervalo dos valores hexadecimais das letras pela tabela ASCII
@@ -101,7 +100,6 @@ O enigma possui as seguintes etapas principais:
 >
 ><img width="451" height="121" alt="Refletor" src="https://github.com/user-attachments/assets/2cf278fe-9d3d-4308-a8da-dc22ca49fb37" />
 
-´´´
 
 
 ## 📖 Cifras
@@ -136,8 +134,9 @@ Abaixo estão as cifras usadas:
 | 11001 |	Y	|	 | B | C |  | W | X |  | R | P |
 | 11010 |	Z	|	 | C | S |  | V | I |  | E | O |
 
-**Para ler esses cifras se deve ter como base o seguinte:**
-Entrando a letra A em um rotor com a cifra A a saida será G, de modo que se entrar a letra G em um rotor inverso com a cifra A inversa a saida será A
+>[!Note]
+>**Para ler esses cifras se deve ter como base o seguinte:**
+>Entrando a letra A em um rotor com a cifra A a saida será G, de modo que se entrar a letra G em um rotor inverso com a cifra A inversa a saida será A
 
 
 ## 🚀 Como usar
