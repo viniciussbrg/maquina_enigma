@@ -36,7 +36,9 @@
 
 5. Pronto! A Memoria ROM foi carregada com a Cifra!
 
-´´´
+>[!Caution]
+>Os rotores precisam estar com a mesma cifra, e os rotores inversos com as cifras reversas
+
 
 ## 💻 Simulando o Enigma
 1. Clique em **Simular** na aba de ferramentas
