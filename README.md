@@ -107,36 +107,70 @@ Abaixo estão as cifras usadas:
 
 |Posição|Letra| | Cifra A |	A Inversa | | Cifra B | B Inversa |  | Plugboard | Refletor |
 | :---: | :---: |:---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 00001 |	A	|  | G | N |  | i | N |  | F | T |
-| 00010 | B	|  | D | Y |  | U | P |  | T | H |
-| 00011 |	C	|  | Y | Z |  | R | H |  | M | I |
-| 00100 |	D |  | U | B |  | X | J |  | G | G |
-| 00101 |	E	|  | N | I |  | P | L |  | Z | F |
-| 00110 |	F	|  | Q | Q |  | S | T |  | A | E |
-| 00111 |	G	|  | M | A |  | K | S |  | D | D |
-| 01000 |	H	|  | O | R |  | C | Q |  | P | B |
-| 01001 |	I	|  | E | T |  | Z | A |  | O | C |
-| 01010 |	J	|	 | R | U |  | D | K |  | K | W |
-| 01011 |	K	|  | P | M |  | J | G |  | J | S |
-| 01100 |	L |	 | V | W |  | E | U |  | W | Q |
-| 01101 |	M |	 | K | G |  | N | O |  | C | X |
-| 01110 |	N |	 | A | E |  | A | M |  | S | V |
-| 01111 |	O	|	 | S | H |  | M | W |  | I | Z |
-| 10000 |	P	|  | W | K |  | B | E |  | H | Y |
-| 10001 |	Q |	 | F | F |  | H | V |  | X | L |
-| 10010 |	R	|	 | H | J |  | T | C |  | Y | U |
-| 10011 |	S	|	 | Z | O |  | G | F |  | N | K |
-| 10100 |	T	|	 | I | X |  | F | R |  | B | A |
-| 10101 |	U	|	 | J | D |  | L | B |  | V | R |
-| 10110 |	V	|	 | X | L |  | Q | Z |  | U | N |
-| 10111 |	W	|	 | L | P |  | O | Y |  | L | J |
-| 11000 |	X |	 | T | V |  | Y | D |  | Q | M |
-| 11001 |	Y	|	 | B | C |  | W | X |  | R | P |
-| 11010 |	Z	|	 | C | S |  | V | I |  | E | O |
+| `00001` | **a** |   | g | n |   | i | n |   | f | t |
+| `00010` | **b** |   | d | y |   | u | p |   | t | h |
+| `00011` | **c** |   | y | z |   | r | h |   | m | i |
+| `00100` | **d** |   | u | b |   | x | j |   | g | g |
+| `00101` | **e** |   | n | i |   | p | l |   | z | f |
+| `00110` | **f** |   | q | q |   | s | t |   | a | e |
+| `00111` | **g** |   | m | a |   | k | s |   | d | d |
+| `01000` | **h** |   | o | r |   | c | q |   | p | b |
+| `01001` | **i** |   | e | t |   | z | a |   | o | c |
+| `01010` | **j** |   | r | u |   | d | k |   | k | w |
+| `01011` | **k** |   | p | m |   | j | g |   | j | s |
+| `01100` | **l** |   | v | w |   | e | u |   | w | q |
+| `01101` | **m** |   | k | g |   | n | o |   | c | x |
+| `01110` | **n** |   | a | e |   | a | m |   | s | v |
+| `01111` | **o** |   | s | h |   | m | w |   | i | z |
+| `10000` | **p** |   | w | k |   | b | e |   | h | y |
+| `10001` | **q** |   | f | f |   | h | v |   | x | l |
+| `10010` | **r** |   | h | j |   | t | c |   | y | u |
+| `10011` | **s** |   | z | o |   | g | f |   | n | k |
+| `10100` | **t** |   | i | x |   | f | r |   | b | a |
+| `10101` | **u** |   | j | d |   | l | b |   | v | r |
+| `10110` | **v** |   | x | l |   | q | z |   | u | n |
+| `10111` | **w** |   | l | p |   | o | y |   | l | j |
+| `11000` | **x** |   | t | v |   | y | d |   | q | m |
+| `11001` | **y** |   | b | c |   | w | x |   | r | p |
+| `11010` | **z** |   | c | s |   | v | i |   | e | o |
 
 >[!Note]
 >**Para ler esses cifras se deve ter como base o seguinte:**
 >Entrando a letra A em um rotor com a cifra A a saida será G, de modo que se entrar a letra G em um rotor inverso com a cifra A inversa a saida será A
+
+### Tabela de Letras Minúsculas e Valores (ASCII)
+
+| Letra | Binário | Hexadecimal |
+| :---: | :---: | :---: |
+| **a** | `01100001` | `0x61` |
+| **b** | `01100010` | `0x62` |
+| **c** | `01100011` | `0x63` |
+| **d** | `01100100` | `0x64` |
+| **e** | `01100101` | `0x65` |
+| **f** | `01100110` | `0x66` |
+| **g** | `01100111` | `0x67` |
+| **h** | `01101000` | `0x68` |
+| **i** | `01101001` | `0x69` |
+| **j** | `01101010` | `0x6A` |
+| **k** | `01101011` | `0x6B` |
+| **l** | `01101100` | `0x6C` |
+| **m** | `01101101` | `0x6D` |
+| **n** | `01101110` | `0x6E` |
+| **o** | `01101111` | `0x6F` |
+| **p** | `01110000` | `0x70` |
+| **q** | `01110001` | `0x71` |
+| **r** | `01110010` | `0x72` |
+| **s** | `01110011` | `0x73` |
+| **t** | `01110100` | `0x74` |
+| **u** | `01110101` | `0x75` |
+| **v** | `01110112` | `0x76` |
+| **w** | `01110111` | `0x77` |
+| **x** | `01111000` | `0x78` |
+| **y** | `01111001` | `0x79` |
+| **z** | `01111010` | `0x7A` |
+
+>[!Caution]
+>Esse projeto só codifica letra minuscula, letras maiusculas passam direto para a saida
 
 
 ## 🚀 Como usar
@@ -149,8 +183,9 @@ Abaixo estão as cifras usadas:
 
 ## 🌱 Melhorias a se fazer
 * Adicionar mais rotores 
-* Ajustar a decriptografia para funcionar com mais rotores 
+* Ajustar o sistema para funcionar tambem com letras maiusculas
 * Ajustar o sistema para funcionar com cifras de tipos diferentes em cada rotor
+* Arrumar bugs na decodificação
 
 ## 👨‍💻 Integrantes
 [![GitHub](https://img.shields.io/badge/GitHub-TaysonMoises-24292e?style=flat&logo=github)](https://github.com/Tayson-M)
