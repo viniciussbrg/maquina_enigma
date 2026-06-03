@@ -2,7 +2,7 @@
 <img width="300" height="234" alt="enigma-300x234" src="https://github.com/user-attachments/assets/ac9ac5d2-1233-403e-a524-6e0a65171210" />
 
 
-máquina enigma usada pelos nazistas
+Máquina Enigma usada pelos nazistas
 
 ## 💻 Sobre o projeto
 Esse projeto consiste em desenvolver uma maquina enigma por meios de simulação digital
@@ -145,7 +145,7 @@ Abaixo estão as cifras usadas:
 3. Siga as [Instruções de Usos](https://github.com/viniciussbrg/maquina_enigma/tree/main/Enigma#instru%C3%A7%C3%B5es-de-usos)
 
 ## 📺 Link para video no Youtube
->[![Nome do Vídeo](https://img.youtube.com/vi/_R43zn0hE4I/0.jpg)](https://www.youtube.com/watch?v=_R43zn0hE4I)
+>[![Maquina Enigma no Logisim](https://img.youtube.com/vi/iNSpgeBGhbU/0.jpg)](https://www.youtube.com/watch?v=iNSpgeBGhbU)
 
 ## 🌱 Melhorias a se fazer
 * Adicionar mais rotores 
